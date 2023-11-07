@@ -1,15 +1,8 @@
 function TicTacToe(placeholder, grid_size, callback) {
-
-
 	this.placeholder = placeholder;
 
-
 	this.paint(grid_size);
-
-
 	this.callback = callback;
-
-
 	this.scores = {
 		X: 0,
 		O: 0
@@ -139,10 +132,7 @@ TicTacToe.prototype.didWin = function(mark) {
 		if(this.columns[(grid_size - 1) * (i+1)].innerHTML == mark) {
 			left_to_right_count++;
 		}
-
 	} 
-
-
 	if(right_to_left_count == grid_size || left_to_right_count == grid_size) {
 		return true;	
 	}

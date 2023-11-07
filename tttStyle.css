@@ -1,7 +1,8 @@
 body {
   font: normal 16px comic sans ms;
   text-align: center;
-  background-image: url("/242449.png");
+  background-image: url("/91655.jpg");
+  background-size: cover;
 }
 td {
   color: #23916b;
@@ -55,4 +56,15 @@ td {
 
 #scoreboard .score#player2 {
   color: #23916b;
+}
+
+.reset-btn {
+  background-color: #ed676b;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font: normal 16px comic sans ms;
+  margin-top: 40px;
 }
